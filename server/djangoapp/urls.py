@@ -10,6 +10,7 @@ urlpatterns = [
     # name the URL
 
     # path for about view
+    path('static-view/', views.my_static_view, name='static_view'),
 
     # path for contact us view
 
